@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WebDesignFan - макет сайта</title>
+<!--[if lt IE 8]><link rel=stylesheet href="css/fds.ie7.css"><![endif]-->
+<!--[if IE 8]><link rel=stylesheet href="css/fds.ie8.css"><![endif]-->
+<!--[if gt IE 8]><!--><link rel="stylesheet" href="css/fds.css" /><!--<![endif]-->
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .button,
+    .main:after {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="page__wrap-out">
+		<div class="page">
+			<header class="head">
+				<h1 class="logo">
+					<a href="#"><span>fictional</span> <br />design <br />studio</a>
+				</h1>
+				<nav role="navigation">
+					<ul class="menu">
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">work</a></li>
+						<li><a href="#">blog</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="main u-clearfix">
+				<h2 class="main__head">we create beautiful, functional and <br /> effective websites.</h2>
+				<article class="article" role="main">
+					<h3>
+						Portfolio project,
+						<time datetime="2010-01-05">Jan 5th, 2010</time>
+					</h3>
+					<p>Have you ever wanted to create clean and nice portfolio design? In this tutorial I will show you how to design clean blue portfolio layout. Have you ever wanted to create clean and nice
+						portfolio design? In this tutorial I will show you how to design clean blue portfolio layout in Adobe Photoshop.</p>
+				</article>
+				<div class="tizer">
+					<img src="i/tizer.jpg" width="236" height="209" alt="" />
+					<a class="button" href="#">more projects</a>
+				</div>
+			</div>
+			<aside class="aside u-clearfix">
+				<article class="section section-l">
+					<h2>Beautiful</h2>
+					<p>WebDesignFan is a design related blog about web design, photoshop, freebies and tutorials. We publish useful information dedicated to web designers and developers. Here you can find free
+						resources like vectors, wordpress themes and a lot of inspiration.</p>
+				</article>
+				<article class="section section-c">
+					<h2>Effective</h2>
+					<p>WebDesignFan is a design related blog about web design, photoshop, freebies and tutorials. We publish useful information dedicated to web designers and developers. Here you can find free
+						resources like vectors, wordpress themes and a lot of inspiration.</p>
+				</article>
+				<article class="section section-r">
+					<h2>Functional</h2>
+					<p>WebDesignFan is a design related blog about web design, photoshop, freebies and tutorials. We publish useful information dedicated to web designers and developers. Here you can find free
+						resources like vectors, themes and a lot of inspiration.</p>
+				</article>
+			</aside>
+		</div>
+		<footer class="foot" role="contentinfo">
+			<div class="foot_wrap-in">
+				<div class="foot_l">
+					<p class="copyright">2010 &copy; Fictional Design Studio. Design by Tomas Laurinavicius.</p>
+				</div>
+				<div class="foot_r">
+					<div class="twitter">
+						<a href="#">Follow us on Twitter</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+<!--[if (gt IE 7) & (lte IE 9)]>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/jquery.textshadow.js"></script>
+	<script>
+		(function(){
+			$(function() {			
+				var init = function (n) {
+					if (n.nodeType == 1 && n.currentStyle['text-shadow']) {
+						$(n).textShadow();
+					}
+					var children = n.children, i = 0, last = children.length;
+					for (; i < last; i++) {
+						init(children[i]);
+					}
+				};	
+				init(document.body);
+			});
+		}());
+	</script>
+<![endif]-->
+</body>
+</html>
